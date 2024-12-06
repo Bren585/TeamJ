@@ -1,0 +1,60 @@
+﻿  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\BasicPS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\BasicVS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\LambertPS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\LambertVS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\ShapeRendererPS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\ShapeRendererVS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\PrimitiveRendererPS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\PrimitiveRendererVS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\SpritePS.cso
+  compilation object save succeeded; see C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\SpriteVS.cso
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  Camera.cpp
+  CameraController.cpp
+  Character.cpp
+  Collision.cpp
+  Effect.cpp
+  EffectManager.cpp
+  Enemy.cpp
+  EnemyManager.cpp
+  EnemySlime.cpp
+  Framework.cpp
+  Main.cpp
+  Player.cpp
+  Projectile.cpp
+  ProjectileHoming.cpp
+  ProjectileManager.cpp
+  ProjectileStraight.cpp
+  SceneGame.cpp
+  SceneLoading.cpp
+  SceneTitle.cpp
+  SceneManager.cpp
+  Stage.cpp
+  Audio.cpp
+  AudioResource.cpp
+  AudioSource.cpp
+  BasicShader.cpp
+  GamePad.cpp
+  GpuResourceUtils.cpp
+  Graphics.cpp
+  ImGuiRenderer.cpp
+  Input.cpp
+  LambertShader.cpp
+  Model.cpp
+  ModelRenderer.cpp
+  ModelResource.cpp
+  Mouse.cpp
+  RenderState.cpp
+  ShapeRenderer.cpp
+  Sprite.cpp
+     Creating library bin\x64\Release\Game.lib and object bin\x64\Release\Game.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4953 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Game.vcxproj -> C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\bin\x64\Release\Game.exe

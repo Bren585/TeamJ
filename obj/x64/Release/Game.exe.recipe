@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\bin\x64\Release\Game.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\BasicPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\BasicVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\LambertPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\LambertVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\ShapeRendererPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\ShapeRendererVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\PrimitiveRendererPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\PrimitiveRendererVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\SpritePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\2240755\Desktop\ECC Computer\2024 2nd Half\Game Programming 3\Project Files\Data\Shader\SpriteVS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
