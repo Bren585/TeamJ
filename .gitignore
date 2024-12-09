@@ -368,13 +368,13 @@ FodyWeavers.xsd
 
 # Anything in debug folders
 
-.bin/x64/Debug/
-.obj/x64/Debug/
+bin/x64/Debug/
+obj/x64/Debug/
 
 # Anything external
 
-.External/DirectXTex
+External/DirectXTex/
 
 # CSO files
 
-*.cso
+Data/Shader/*.cso
