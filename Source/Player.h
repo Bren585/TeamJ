@@ -12,7 +12,6 @@
 #include "ProjectileManager.h"
 #include "ProjectileStraight.h"
 #include "ProjectileHoming.h"
-#include "Collision.h"
 #include "Effect.h"
 
 class Player : public Character {

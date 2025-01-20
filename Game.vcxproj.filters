@@ -55,6 +55,18 @@
     <Filter Include="Source\Headers\Effect">
       <UniqueIdentifier>{750f79c6-c26d-402e-9105-e7f36df96e9a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Headers\Character\Enemy">
+      <UniqueIdentifier>{a480d925-96e9-4d0b-89c8-6aed420de35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Source\Character\Enemy">
+      <UniqueIdentifier>{c08c81ca-a88f-413b-8d36-b7b63e2a0f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Headers\Colliders">
+      <UniqueIdentifier>{a2a5a122-60b4-45f5-b766-6254059cd792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Source\Colliders">
+      <UniqueIdentifier>{c8acc184-3167-4771-b2f0-4642ee69444f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="External\imgui-docking\imconfig.h">
@@ -153,18 +165,6 @@
     <ClInclude Include="Source\Camera.h">
       <Filter>Source\Headers\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Enemy.h">
-      <Filter>Source\Headers\Character</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\EnemySlime.h">
-      <Filter>Source\Headers\Character</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\EnemyManager.h">
-      <Filter>Source\Headers\Character</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\Collision.h">
-      <Filter>Source\Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Framework.h">
       <Filter>Source\Headers</Filter>
     </ClInclude>
@@ -209,6 +209,27 @@
     </ClInclude>
     <ClInclude Include="Source\EffectManager.h">
       <Filter>Source\Headers\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Source\Headers\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyManager.h">
+      <Filter>Source\Headers\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemySlime.h">
+      <Filter>Source\Headers\Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wall.h">
+      <Filter>Source\Headers\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>Source\Headers\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Source\Headers\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Source\Headers\Character</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -290,15 +311,6 @@
     <ClCompile Include="Source\Character.cpp">
       <Filter>Source\Source\Character</Filter>
     </ClCompile>
-    <ClCompile Include="Source\EnemySlime.cpp">
-      <Filter>Source\Source\Character</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\EnemyManager.cpp">
-      <Filter>Source\Source\Character</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Collision.cpp">
-      <Filter>Source\Source</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Framework.cpp">
       <Filter>Source\Source</Filter>
     </ClCompile>
@@ -323,9 +335,6 @@
     <ClCompile Include="Source\ProjectileHoming.cpp">
       <Filter>Source\Source\Projectile</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Enemy.cpp">
-      <Filter>Source\Source\Character</Filter>
-    </ClCompile>
     <ClCompile Include="Source\SceneTitle.cpp">
       <Filter>Source\Source\Scenes</Filter>
     </ClCompile>
@@ -343,6 +352,21 @@
     </ClCompile>
     <ClCompile Include="Source\Effect.cpp">
       <Filter>Source\Source\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyManager.cpp">
+      <Filter>Source\Source\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source\Source\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemySlime.cpp">
+      <Filter>Source\Source\Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>Source\Source\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wall.cpp">
+      <Filter>Source\Source\Colliders</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
 #include "EnemyManager.h"
+#include "Collision.h"
 
 void EnemyManager::Update(float elapsedTime) {
 	for (Enemy* enemy : enemies) {
@@ -39,7 +40,7 @@ void EnemyManager::CollisionEnemyVsEnemies() {
 				enemyB->GetPosition(),
 				enemyB->GetRadius(),
 				enemyB->GetHeight(),
-				outPosition
+				&outPosition
 			)) {
 				enemyB->SetPosition(outPosition);
 			}

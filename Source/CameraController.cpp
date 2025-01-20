@@ -32,3 +32,7 @@ void CameraController::Update(float elapsedTime) {
 void CameraController::SetTarget(const DirectX::XMFLOAT3 target) {
 	this->target = target;
 }
+
+void CameraController::SetAngle(const DirectX::XMFLOAT3 angle) {
+	this->angle = angle;
+}

@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Enemy.h"
-#include "Collision.h"
 #include <vector>
 #include <set>
 using std::vector;

@@ -1,5 +1,6 @@
 #include "Player.h"
 #include "System\Audio.h"
+#include "Collision.h"
 
 void Player::Initialize() {
 	model = new Model("Data/Model/Mr.Incredible/Mr.Incredible.mdl");
@@ -186,7 +187,7 @@ void Player::CollisionPlayerVsEnemies() {
 			enemy->GetPosition(),
 			enemy->GetRadius(),
 			enemy->GetHeight(),
-			outPosition
+			&outPosition
 		)) {
 			DirectX::XMVECTOR playerPos			= DirectX::XMLoadFloat3(&position);
 			DirectX::XMVECTOR enemyPos			= DirectX::XMLoadFloat3(&(enemy->GetPosition()));
@@ -222,7 +223,7 @@ void Player::CollisionProjectilesVsEnemies() {
 				enemy->GetPosition(),
 				enemy->GetRadius(),
 				enemy->GetHeight(),
-				outPosition
+				&outPosition
 			)) { 
 				if (enemy->ApplyDamage(1, 0.5f)) { 
 					DirectX::XMFLOAT3 impulse;

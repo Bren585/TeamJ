@@ -111,6 +111,7 @@
     </FxCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Ball.h" />
     <ClInclude Include="External\imgui-docking\imconfig.h" />
     <ClInclude Include="External\imgui-docking\imgui.h" />
     <ClInclude Include="External\imgui-docking\imgui_impl_dx11.h" />
@@ -119,6 +120,7 @@
     <ClInclude Include="External\imgui-docking\imstb_rectpack.h" />
     <ClInclude Include="External\imgui-docking\imstb_textedit.h" />
     <ClInclude Include="External\imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="Floor.h" />
     <ClInclude Include="Source\Camera.h" />
     <ClInclude Include="Source\CameraController.h" />
     <ClInclude Include="Source\Character.h" />
@@ -162,6 +164,7 @@
     <ClInclude Include="Source\System\Shader.h" />
     <ClInclude Include="Source\System\ShapeRenderer.h" />
     <ClInclude Include="Source\System\Sprite.h" />
+    <ClInclude Include="Source\Wall.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="External\imgui-docking\imgui.cpp" />
@@ -208,6 +211,7 @@
     <ClCompile Include="Source\System\RenderState.cpp" />
     <ClCompile Include="Source\System\ShapeRenderer.cpp" />
     <ClCompile Include="Source\System\Sprite.cpp" />
+    <ClCompile Include="Source\Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\Basic.hlsli" />
