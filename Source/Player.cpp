@@ -3,7 +3,7 @@
 #include "Collision.h"
 
 void Player::Initialize() {
-	model = new Model("Data/Model/Mr.Incredible/Mr.Incredible.mdl");
+	model = new Model("Data/Model/GolfBallBig.mdl");
 	hitEffect = new Effect("Data/Effect/Hit.efk");
 	hitSE = Audio::Instance().LoadAudioSource("Data/Sound/Hit.wav");
 
