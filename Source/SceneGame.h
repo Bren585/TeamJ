@@ -6,6 +6,8 @@
 #include "CameraController.h"
 #include "EnemyManager.h"
 #include "EnemySlime.h"
+#include "floor.h"
+#include "System/Sprite.h"
 
 // ÉQÅ[ÉÄÉVÅ[Éì
 class SceneGame : public Scene
@@ -29,6 +31,18 @@ public:
 	// GUIï`âÊ
 	void DrawGUI() override;
 private:
-	Stage* stage = nullptr;
+	//Stage* stage = nullptr;
 	CameraController* cameraController = nullptr;
-};
+	Floor* floor[2] = { nullptr, nullptr };
+	bool using_floor = false;
+
+	Sprite* numbers[11] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+	Sprite* shots = nullptr;
+
+	Sprite* game_over = nullptr;
+	Sprite* star[2] = {nullptr, nullptr};
+	bool end = false;
+
+	int score = 0;
+	float timer = 0;
+}; 

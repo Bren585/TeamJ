@@ -17,7 +17,7 @@ protected:
 	};
 
 	float	gravity			= -30.0f;
-	float	friction		= 15.0f;
+	float	friction		= 5.0f;
 	float	acceleration	= 50.0f;
 	float	maxMoveSpeed	= 5.0f;
 	float	airControl		= 0.3f;
@@ -65,6 +65,8 @@ public:
 	void SetScale	(DirectX::XMFLOAT3& scale	) { this->scale		= scale; }
 
 	void AddImpulse(DirectX::XMFLOAT3& impulse);
+	void Ground();
+	void ResetGround() { isGround = false; }
 
 	bool ApplyDamage(int damage, float invincibleTime);
 

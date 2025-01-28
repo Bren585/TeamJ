@@ -33,6 +33,8 @@ void SceneManager::Clear() {
 		delete currentScene;
 		currentScene = nullptr;
 	}
+	bkg->Stop();
+	delete bkg;
 }
 
 void SceneManager::ChangeScene(Scene* scene) {

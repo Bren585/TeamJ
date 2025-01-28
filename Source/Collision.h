@@ -2,6 +2,7 @@
 
 #include <DirectXMath.h>
 #include "Character.h"
+#include "floor.h"
 
 class Collision {
 public:
@@ -21,6 +22,11 @@ public:
 		float radiusB,
 		float heightB,
 		DirectX::XMFLOAT3* outPositionB
+	);
+
+	static bool IntersectFloorVsSphere(
+		Floor* floor,
+		Character& character
 	);
 
 	inline static bool IntersectSphereVsCylinder(

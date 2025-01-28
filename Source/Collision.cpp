@@ -58,3 +58,17 @@ bool Collision::IntersectCylinderVsCylinder(
 	
 	return true;
 }
+
+bool Collision::IntersectFloorVsSphere(
+	Floor* floor,
+	Character& character
+) {
+	int intersection = floor->CollisionVsSphere(character.GetPosition(), character.GetRadius());
+	if (!intersection) return false;
+
+	DirectX::XMFLOAT3 newPos = character.GetPosition();
+	newPos.y = floor->getPosition().y + (floor->getHeight() / 2.0f + character.GetRadius()) * intersection;
+	character.SetPosition(newPos);
+	character.Ground();
+	return true;
+}

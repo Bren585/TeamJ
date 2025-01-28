@@ -54,18 +54,26 @@ void Character::UpdateVerticalVelocity(float elapsedTime) {
 void Character::UpdateVerticalMove(float elapsedTime) {
 	position.y += velocity.y * elapsedTime;
 
-	if (position.y < 0.0f) {
-		position.y = 0.0f;
-		velocity.y = 0.0f;
+	//if (position.y < 0.0f) {
+	//	position.y = 0.0f;
+	//	velocity.y = 0.0f;
 
-		if (!isGround) {
-			OnLanding();
-		}
-		isGround = true;
-	}
-	else {
-		isGround = false;
-	}
+	//	if (!isGround) {
+	//		OnLanding();
+	//	}
+	//	isGround = true;
+	//}
+	//else {
+	//	isGround = false;
+	//}
+}
+
+void Character::Ground() {
+	if (!isGround) OnLanding();
+	isGround = true;
+	if (fabsf(velocity.y) < 0.01f) { velocity.y = 0; }
+	else { velocity.y = -velocity.y * 0.01f; }
+
 }
 
 void Character::UpdateHorizontalVelocity(float elapsedTime) {
@@ -101,7 +109,7 @@ void Character::UpdateHorizontalVelocity(float elapsedTime) {
 			float length = sqrtf(velocity.x * velocity.x + velocity.z * velocity.z);
 			if (length > maxMoveSpeed) {
 				velocity.x *= maxMoveSpeed / length;
-				velocity.y *= maxMoveSpeed / length;
+				velocity.z *= maxMoveSpeed / length;
 			}
 		}
 	}

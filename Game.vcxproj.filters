@@ -225,11 +225,8 @@
     <ClInclude Include="Source\Collision.h">
       <Filter>Source\Headers\Colliders</Filter>
     </ClInclude>
-    <ClInclude Include="Floor.h">
+    <ClInclude Include="Source\floor.h">
       <Filter>Source\Headers\Colliders</Filter>
-    </ClInclude>
-    <ClInclude Include="Ball.h">
-      <Filter>Source\Headers\Character</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

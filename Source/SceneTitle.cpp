@@ -9,7 +9,7 @@
 
 
 void SceneTitle::Initialize() {
-	sprite = new Sprite("Data/Sprite/Title.png");
+	sprite = new Sprite("Data/Sprite/bkg.png");
 }
 
 void SceneTitle::Finalize() {
